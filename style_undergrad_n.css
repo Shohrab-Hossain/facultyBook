@@ -1,0 +1,155 @@
+body{
+    
+}
+
+.online_sub {
+    
+}
+
+.form {
+  background: rgba(19, 35, 47, 0.9); 
+  padding: 40px;
+  height: 260px !important ;
+  width: 280px !important ;
+  margin-top: 10px ; 
+  margin-left: 10px;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.form h1 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+  margin: -10px 0px 10px 0px;
+}
+
+.form h2 {
+  text-align: center;
+  margin: -10px 0px 0px 0px;
+}
+
+.form h4 {
+    color: azure;
+  text-align: center;
+  margin: -25px 0px 20px 0px;
+}
+
+.field-wrap {
+  position: relative;
+  margin-bottom: 40px;
+    width: 260px !important;
+    height: 20px;
+    background-color: azure;
+    text-align: left;
+    padding: 10px;
+    
+}
+
+.form ul li a {
+    text-decoration: none;
+    color: rgba(13, 162, 114, 0.96);
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    font-family: sans-serif;
+    font-size: 120%;
+}
+
+
+.form li {
+    display: block;
+    list-style-type: none;
+    font-family: corbel;
+    font-size: 120%;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.form ul div {
+    height: 30px;
+    width: 299px;
+    margin-bottom: 15px;
+}
+
+.create_link{
+    display: none;
+    z-index: 10; 
+}
+
+.links {
+    position: absolute;
+    margin-left: 260px;
+}
+
+.form ul li:hover .create_link {
+    display: block;
+}
+
+/*----- View -------*/
+.view {
+  background: rgba(19, 35, 47, 0.9); 
+  padding: 40px;
+  height: 530px !important ;
+  width: 460px !important ;
+  position: absolute;
+  margin-top: -138px ; 
+  margin-left: 280px;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.link_table table{
+    border-spacing: 10px;
+    width: 450px;
+}
+
+.link_table th {
+    background-color: bisque;
+    color: firebrick;
+    width: 90px;
+    padding: 10px;
+}
+
+.link_table td {
+    padding: 10px;
+    width: 70px;
+}
+
+.link_table tr{
+    color: #ffffff ;
+}
+
+.view_button{
+    cursor: pointer ;
+    background-color: rgba(127, 255, 0, 0.2);
+    width: 150px;
+    height: 45px;
+    padding: 5px 10px;
+    font-size: bold;
+    font-family: sans-serif;
+    font-size: 120%;
+}
+.button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 10px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #1ab188;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+
+.button:hover, .button:focus {
+  background: #179b77;
+}
+
+.button-block {
+  display: block;
+  width: 100%;
+}

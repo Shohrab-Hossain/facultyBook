@@ -1,0 +1,77 @@
+body{
+    font-family: century corbel arial cursive ;
+    background-color:  rgba(153, 162, 169, 0.33)
+}
+
+/*---------- header ----------- */
+header img:nth-child(2) {  /* targets img type 2nd child of closest parent */
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    width: 200px;
+    height: 200px ;
+    cursor: no-drop;
+}
+
+header h2 {
+    position: absolute;
+    top: 130px;
+    left: 320px;
+    color: azure;
+    font-family: corbel ;
+    font-size: 300% ;
+    width: 550px;
+    
+}
+
+/*---------- Middle part between hor_nav & footer -----------*/
+.middle {
+    margin-top: -5px;
+    width: 1335px;
+    height: 402px;
+    display: grid;
+    background-color: rgba(204, 212, 218, 0.78);
+}
+
+
+
+/*---------- Slideshow -----------*/
+.slideshow{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 340px;
+    height: 370px;
+    width: 650px;
+    border-style: solid;
+}
+
+/*---------- Noticeboard -----------*/
+.noticeboard {
+  background: rgba(19, 35, 47, 0.9); 
+  padding: 5px;
+  height: 367px  ;
+  width: 303px  ;
+  position: absolute;
+  margin-top: 10px; ; 
+  margin-left: 1012px;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.noticeboard h2{
+    text-align: center;
+    color: azure;
+    font-family: corbel;
+}
+
+.textarea{
+    margin: 0px 5px 0px 5px;
+    padding: 1px 1px 1px 12px;
+    text-align: justify;
+    background-color: whitesmoke;
+    height: 291px;  
+}
+
+.textarea p {
+    font-family: sans-serif;
+}

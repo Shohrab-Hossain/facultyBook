@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<title>CUET Faculty Member's Website</title>
+
+</head>
+<body>
+
+<video width="1350" height="500"  autoplay loop>
+	<source src="vdo.mp4" type="video/mp4">
+</video>
+
+<h1><em>CHITTAGONG UNIVERSITY OF ENGINEERING & TECHNOLOGY</em></h1><br/><br/>
+
+<h2>About</h2>
+<p><em><h3>The Chittagon University Of Engineering & Technology has been established to advance,maintain and disseminate knowledge in the internal level.</h3></em></p>
+
+<p><em><h3>The modern world incresingly values the result of intellectual endevour.If Bangladesh is to prosper, educational institutes must play the central role in higher learning,research and teaching to increase her intellectual pursuit.In this context , the CUET has set a two-fold vision</h3></em></p>
+
+<p><em><h3>Firstly, to send out graduates with trained and educated minds, to serve as a soure of intellectual potentiality.</h3></em></p>
+
+<p><em><h3>Secondly, to be a premier research Institute, internationally known for it's excellence and contributions to knowledge, teaching and graduates.</h3></em></p><br/><br/>
+
+<h1><strong>FACULTIES</strong></h1><br/>
+
+<h2><strong>Faculty of Electrical & Computer Engineering</strong></h2>
+<ul>
+	<li><a href="ete_page.html">Electronics & Telecommunication Engineering</a></li><br/>
+
+	<li><a href="">Electrical And Electronics Engineering</a></li><br/>
+
+	<li><a href="">Computer Science And Engineering</a></li><br/>
+
+</ul>
+
+<h2><strong>Faculty of Civil Engineering </strong></h2>
+<ul>
+	<li><a href="">Civil Engineering</a></li><br/>
+
+	<li><a href="">Disaster And Enviromental Engineering</a></li><br/>
+
+	<li><a href="">Civil And Water Resources Engineering</a></li><br/>
+</ul>
+
+<h2><strong>Faculty of Mechanical Engineering </strong></h2>
+<ul>
+	<li><a href="">Mechanical Engineering</a></li><br/>
+	<li><a href="">Petroleum and Mining Engineering</a></li><br/>
+	<li><a href="">Mechatronics and Industrial Engineering</a></li><br/>
+</ul>
+
+<h2><strong>Faculty of Architecture And Planning</strong></h2>
+<ul>
+	<li><a href="">Department Of Architecture</a></li><br/>
+	<li><a href="">Urban And Regional Planning</a></li><br/>
+	<li><a href="">Humanities</a></li><br/>
+</ul>
+
+<h2><strong>Faculty of Engineering And Technology</strong></h2>
+<ul>
+	<li><a href="">Physics</a></li><br/>
+	<li><a href="">Chemistry</a></li><br/>
+	<li><a href="">Mathematics</a></li><br/>
+</ul><br/>
+
+<a href=""><h2>NOTICE BOARD</h2></a>
+<footer>
+	<p><h3>Posted by:</h3></p>
+	<ul>
+		<li>Afnan Ahmed Akash</li>
+		<li>Shohrab hossain</li>
+	</ul>
+</footer>
+
+</body>
+</html>

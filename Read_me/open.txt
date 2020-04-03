@@ -1,0 +1,8 @@
+
+# Admin_panel :
+   username : -3
+   password : science
+
+# Key* for sign_up : ETE
+
+# database name : facultyc_shohrab

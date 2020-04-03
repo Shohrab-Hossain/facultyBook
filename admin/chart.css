@@ -1,0 +1,62 @@
+/*----- Chart ------*/
+.chart{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -358px;
+    width: 960px;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    
+    background-color: beige;
+    color: black ;
+}
+
+.chart h2 {
+    font-size: 200%;
+    color: darkslategray;
+    text-align: center;
+    font-family: corbel;
+    text-shadow: 3px 2.5px 3px rgba(19, 35, 47, 0.3);
+      
+}
+
+.chart h3 {
+    font-size: bold;
+    color: darkslategray;
+    text-align: center;
+    font-family: corbel;
+    /*text-shadow: 3px 2.5px 3px rgba(19, 35, 47, 0.3);*/
+         
+}
+
+.chart table{
+    margin-left: 20px;
+    border-spacing: 10px;
+    width: 950px;
+    padding: 10px;
+}
+
+.chart th {
+    padding: 5px;
+    font-family: corbel;
+    font-size: 120%;
+    text-align: left;
+}
+
+.chart td  {
+    padding: 5px;
+    padding-left: 10px;
+    font-family: ariel;
+}
+
+.chart .sl {
+    width: 60px;
+}
+
+.chart .st_id {
+    width: 140px;
+}
+
+.chart .sb_time {
+    width: 240px;
+}

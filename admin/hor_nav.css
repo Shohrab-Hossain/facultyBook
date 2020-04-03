@@ -1,0 +1,97 @@
+/*---------- Horizontal Navigation Bar ----------- */
+.hor_nav {
+    width: 1335px;
+}
+
+.hor_nav ul{
+    margin-top: 5px ;
+    width: 1292px ;
+    height: 53px;
+    background-color: #b4c1c1;
+    border: 2px solid #101a1a;
+    text-align: center;
+}
+
+.hor_nav ul li {   /* to change font properties while not-hover */
+    display: inline-block;   /* for ul li */
+    background-color: #546565;
+    font-family: corbel;
+    margin-left: -38px ;
+    margin-right: 38px;  
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.hor_nav ul :last-child {
+    margin-right: 0px !important ;
+}
+
+.hor_nav ul li a {
+    text-decoration: none;   /* for ul li a */
+    color: #101a1a;
+    text-shadow: 1px 1px #86c7c7 ;
+}
+
+.hor_nav ul li div {  /* to active whole li box as a link */
+    width: 299px;
+    padding: 15px ;
+}
+
+.active{   /* to notify user in which page he is in */
+    background-color: #2f4646;
+    color: antiquewhite;
+    text-shadow: none ;
+    font-family: arial ;
+    cursor: none;
+}
+
+.hor_nav ul li:hover {  /* change background color while hover*/
+    background-color: #101a1a ;
+}
+
+
+.hor_nav ul li:hover a {  /* change background color while hover*/
+    color: white ;
+    text-shadow: none;
+    font-family: arial;
+}
+
+.hor_nav ul li ul {  /* hide sublist */
+    display: none ;
+    
+    margin-top: 0.5px;
+    width: 285px;
+    height: auto;
+    position: absolute;
+    box-shadow: 3px 3px black;
+    text-align: left !important ;
+    z-index: 10;    /* to solve overlapping */
+}
+
+.hor_nav ul li ul li {
+    margin-left: -40px;
+    margin-right: inherit;
+    width: 323.75px !important;
+}
+
+.hor_nav ul li ul li a {
+    color: #101a1a !important ;    /* "!important" is used to priorate any command */
+    text-shadow: 1px 1px #86c7c7 !important ;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+
+.hor_nav ul li:hover ul {  /* display sublist */
+    display: grid;
+}
+
+.hor_nav ul li ul li:hover {  
+    background-color: #487c7c;
+    width: inherit;
+}
+
+.hor_nav ul li ul li:hover a {
+    color: white !important ;
+    text-shadow: none !important ;
+    font-size: 105% !important;
+}

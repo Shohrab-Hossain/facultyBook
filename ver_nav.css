@@ -1,0 +1,50 @@
+/*---------- Vertical Navigation Bar -----------*/
+.ver_nav{
+    width: 300px;
+    height: 363px;
+    text-align: left;
+    background-color: rgb(144, 229, 209);
+    margin-top: 10px ;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.ver_nav li{
+    margin-left: -30px;
+}
+
+.ver_nav li a {
+    text-decoration: none;
+    color: rgba(208, 135, 135, 0.96);
+    text-decoration: none;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+
+.ver_nav ul li abbr {
+    text-decoration: none;
+}
+
+.ver_nav li {
+    display: block;
+    list-style-type: none;
+    font-family: corbel;
+    font-size: 120%;
+    font-weight: bold;
+    border-bottom: solid white;
+    padding: 10px;
+}
+
+.ver_nav ul li div {
+    width: 200px;
+    height: 30px;
+}
+
+.ver_nav li a:hover {
+    color: darkolivegreen;
+    font-family: arial;
+    font-size: 120%;
+}
+

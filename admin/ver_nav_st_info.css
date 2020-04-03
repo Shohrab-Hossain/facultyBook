@@ -1,0 +1,106 @@
+/*---------- Vertical Navigation Bar -----------*/
+.ver_nav{
+    margin-left: 10px;
+    width: 320px;
+    height: 550px;
+    text-align: left;
+    background-color: rgb(144, 229, 209);
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+
+.ver_nav li a {
+    text-decoration: none;
+    color: rgba(13, 162, 114, 0.96);
+    text-decoration: none;
+    color: #1ab188;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+
+
+.ver_nav li {
+    display: block;
+    list-style-type: none;
+    font-family: corbel;
+    font-size: 120%;
+    font-weight: bold;
+    border-bottom: solid white;
+    padding: 10px;
+    margin-left: -30px;
+}
+
+.ver_nav ul li div {
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.ver_nav li a:hover {
+    color: darkolivegreen;
+    font-family: arial;
+    font-size: 120%;
+}
+
+
+.view_button{
+    cursor: pointer ;
+    background-color: rgba(127, 255, 0, 0.2);
+    width: 270px;
+    height: 45px;
+    padding: 5px 10px;
+    font-size: bold;
+    font-family: sans-serif;
+    font-size: 120%;
+}
+
+/*----- Chart ------*/
+.chart{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -542px;
+    width: 960px;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    
+    background-color: beige;
+    color: black ;
+}
+
+.chart h2 {
+    font-size: 200%;
+    color: darkslategray;
+    text-align: center;
+    font-family: corbel;
+    text-shadow: 3px 2.5px 3px rgba(19, 35, 47, 0.3);
+      
+}
+
+.chart h3 {
+    font-size: bold;
+    color: darkslategray;
+    text-align: center;
+    font-family: corbel;     
+}
+
+.chart table{
+    margin-left: 20px;
+    border-spacing: 10px;
+    width: 950px;
+    padding: 10px;
+}
+
+.chart th {
+    padding: 5px;
+    font-family: corbel;
+    font-size: 120%;
+    text-align: left;
+}
+
+.chart td  {
+    padding: 5px;
+    padding-left: 10px;
+    font-family: ariel;
+    width: 100px;
+}

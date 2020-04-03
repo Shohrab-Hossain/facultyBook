@@ -1,0 +1,32 @@
+body{
+    
+}
+
+
+
+/*---------- Footer -----------*/
+footer {
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+    width: 1335px;
+    height: 60px;
+    background-color: #95c7c7;
+    border: 2px solid #586c6c;
+    font-family: Arial;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: #505d5d;
+}
+
+footer div {
+    color: #505d5d;
+}
+
+footer span {
+    color: #3d4a4a;
+    text-shadow: 2px 2px 1px #bcdddd ;
+}
